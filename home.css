@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.2)
+    ),
+    url("images/header.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    margin: auto;
+    align-items: center;
+}
+
+.nav-logo {
+    flex: 1;
+}
+
+.logo {
+    text-decoration: none;
+    color:#fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.links {
+    text-decoration: none;
+    color:#fff;
+    position: relative; 
+    padding: 10px 0;
+    transition: 0.3s;
+}
+
+link a::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 0;
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+link a:hover::after {
+    width: 100%;
+}
+
+.nav_links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+}
+
+.link {
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+}
+
+.icon1, 
+.icon2 {
+    color: #fff;
+}
+    
+  
