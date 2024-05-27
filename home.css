@@ -32,6 +32,7 @@ nav {
     padding: 2rem 1rem;
     margin: auto;
     align-items: center;
+    max-width: 1200px;
 }
 
 .nav-logo {
@@ -95,6 +96,17 @@ nav {
     font-size: 1.2rem;
     color: #fff; 
     cursor: pointer;
+}
+
+.section_container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 1rem;
+}
+
+.header_container {
+    text-align: center;
+    color: #fff;
 }
 
     
