@@ -381,17 +381,17 @@ nav {
   transition: 0.3s;
 }
 
+.footer__link a {
+  font-weight: 500;
+  color: #fff;
+  white-space: nowrap;
+}
+
 .footer__logo h4 a {
   font-size: 1.5rem;
   font-weight: 600;
   font-family: "Lora", serif;
   color: #fff;
-}
-
-.footer__link a {
-  font-weight: 500;
-  color: #fff;
-  white-space: nowrap;
 }
 
 .craft__image:hover a {
