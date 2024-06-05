@@ -87,7 +87,6 @@
     "has-flag": "^4.0.0",
     "has-unicode": "^2.0.1",
     "has-yarn": "^2.1.0",
-    "hint": "^7.1.11",
     "hosted-git-info": "^6.1.1",
     "http-cache-semantics": "^4.1.1",
     "http-proxy-agent": "^5.0.0",
@@ -262,5 +261,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "hint": "^7.1.11",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
 }
